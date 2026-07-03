@@ -1,0 +1,96 @@
+/* MAIN */
+main {
+  border: 5px solid indigo;
+  background: honeydew;
+  padding: 5px;
+}
+
+/* H1 */
+h1 {
+  color: indigo;
+  text-align: center;
+  font-family: cursive;
+  font-size: 70px;
+  line-height: 1;
+}
+
+/* DIV */
+div {
+  background: white;
+}
+
+/* A */
+/* a,
+a:hover,
+a:focus,
+a:active {
+  color: darkblue;
+  text-decoration: none;
+  border: 1px groove darkblue;
+  padding: 5px;
+} */
+a.btn {
+  color: aliceblue;
+  background: royalblue;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  display: inline-block;
+}
+a.btn:hover {
+  color: gold;
+}
+
+/* FIGURE, IMG */
+figure {
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+  width: 200px;
+
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  border: 1px solid black;
+  background: white;
+  /* padding: 5px; */
+  height: 120px;
+}
+
+/* GRID */
+.grid {
+  border: 1px solid black;
+  background: royalblue;
+  padding: 5px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+
+/* GRID-ITEM */
+.grid-item {
+  border: 1px solid black;
+  padding: 5px;
+
+  /* display: grid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-item.grid-header {
+  border: 1px solid black;
+  background: aqua;
+  font-family: cursive;
+  font-size: 120%;
+}
+.grid-item.grid-data {
+  border: 1px solid black;
+  background: aliceblue;
+  font-family: Verdana, sans-serif;
+  font-size: 100%;
+}
